@@ -1,1 +1,2 @@
-printing current working directory
+Printing current working directory
+Listing files in current directory
