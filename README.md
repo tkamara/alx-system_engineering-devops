@@ -1,1 +1,1 @@
-Shell basics scripts
+Shell basics
