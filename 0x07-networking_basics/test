@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+host=$1
+arg=$0
+
+echo $host
+echo $arg
+
+ping -c 5 $host
