@@ -1,8 +1,8 @@
-#WEB SERVER#
+# WEB SERVER #
 
-##TASKS##
+## TASKS ##
 
-###0. TRANSFER A FILE TO YOUR SERVER###
+### 0. TRANSFER A FILE TO YOUR SERVER ###
 
 Write a Bash script that transfers a file from our client to a server:
 
@@ -17,7 +17,7 @@ Requirements:
 + scp must transfer the file to the user home directory ~/
 + Strict host key checking must be disabled when using scp
 
-###1. INSTALL NGINX WEB SERVER###
+### 1. INSTALL NGINX WEB SERVER ###
 
 Web servers are the piece of software generating and serving HTML pages, let’s install one!
 
@@ -29,7 +29,7 @@ Requirements:
 + As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements (this script will be run on the server itself)
 + You can’t use systemctl for restarting nginx
 
-###2. SETUP A DOMAIN NAME###
+### 2. SETUP A DOMAIN NAME ###
 
 Provide the domain name in your answer file.
 
@@ -39,7 +39,7 @@ Requirement:
 + configure your DNS records with an A entry so that your root domain points to your web-01 IP address Warning: the propagation of your records can take time (~1-2 hours)
 + go to your profile and enter your domain in the Project website url field
 
-###3. REDIRECTION###
+### 3. REDIRECTION ###
 
 Configure your Nginx server so that /redirect_me is redirecting to another page.
 
