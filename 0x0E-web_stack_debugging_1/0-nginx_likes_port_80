@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Debug Nginx to listen on port 80
-sudo rm /etc/nginx/sited-enabled/default
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo sed -i "s/sites-enabled/sites-available/" /etc/nginx/nginx.conf
 sudo service nginx restart
