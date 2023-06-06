@@ -22,7 +22,7 @@ if __name__ == "__main__":
             task.get('title') for task in response_todo if task.get(
                 'completed') is True]
 
-    print("Employee {} is done with tasks ({}/{}):".format(
+    print("Employee {} is done with tasks({}/{}):".format(
         response_user.get('name'), len(completed), len(response_todo)))
     for ttl in completed:
-        print("     {}".format(ttl))
+        print("\t {}".format(ttl))
