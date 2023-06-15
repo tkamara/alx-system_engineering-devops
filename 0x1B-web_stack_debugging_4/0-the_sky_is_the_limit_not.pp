@@ -5,6 +5,6 @@ exec {'correction':
 }
 
 exec {'restart nginx':
-  command => 'service nginx restart',
+  command => 'sudo service nginx restart',
   path    => '/usr/bin',
 }
