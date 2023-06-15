@@ -4,6 +4,7 @@ exec {'correction':
   path    => '/bin',
 }
 
-exec {'service nginx restart':
-  path => '/usr/bin'
+exec {'restart nginx':
+  command => 'service nginx restart',
+  path    => '/usr/bin',
 }
